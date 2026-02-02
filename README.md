@@ -1,12 +1,13 @@
-#🏦 Bank Account System (JavaScript)
-##📌 Project Status
+# 🏦 Bank Account System (JavaScript)
 
-##🚧 Work in Progress 🚧
+## 📌 Project Status
+
+### 🚧 Work in Progress 🚧
 This project is actively being developed and refactored as part of my JavaScript learning journey.
 
 The current implementation may be incomplete, unoptimized, or subject to breaking changes as new concepts are explored and applied.
 
-##📖 Overview
+### 📖 Overview
 
 This is a simple Bank Account system built with vanilla JavaScript to practice and understand:
 
@@ -19,7 +20,7 @@ This is a simple Bank Account system built with vanilla JavaScript to practice a
 
 The project simulates basic banking operations such as deposits, withdrawals, transaction tracking, and interest calculation.
 
-##🎯 Purpose
+### 🎯 Purpose
 
 The main goal of this project is learning by doing, specifically:
 
@@ -29,7 +30,7 @@ The main goal of this project is learning by doing, specifically:
 -  How real-world rules translate into code logic
 -  This is not intended to be production-ready code.
 
-##🧱 Features (Current)
+### 🧱 Features (Current)
 BankAccount
 
 -  Create an account with an owner and initial balance
@@ -41,12 +42,12 @@ BankAccount
 -  Includes an interest rate
 -  Can apply interest to the current balance
 
-##🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 -  JavaScript (ES6+)
 -  No external libraries or frameworks
 
-##🧪 Example Usage
+### 🧪 Example Usage
 
 const account = new BankAccount("EIJI", 1000);
 account.deposit(500);
@@ -58,7 +59,7 @@ const savings = new SavingsAccount("EIJI", 2000, 2);
 savings.addInterest();
 savings.getBalance();
 
-##🔮 Planned Improvements
+### 🔮 Planned Improvements
 
 -  Refactor validation logic
 -  Improve transaction structure (objects instead of strings)
@@ -67,11 +68,14 @@ savings.getBalance();
 -  Apply encapsulation (private fields)
 -  Improve console output formatting
 
-##🧠 Learning Notes
+### 🧠 Learning Notes
 
 This project prioritizes clarity and experimentation over optimization.
 Code quality and structure will improve as more JavaScript concepts are learned.
 
-##📄 License
+### 📄 License
 
 This project is for educational purposes only.
+
+## Author
+EIJI
