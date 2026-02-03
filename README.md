@@ -49,15 +49,15 @@ BankAccount
 
 ### 🧪 Example Usage
 
-const account = new BankAccount("EIJI", 1000);
-account.deposit(500);
-account.withdraw(300);
-account.getBalance();
-account.getTransactions();
+- const account = new BankAccount("EIJI", 1000);
+- account.deposit(500);
+- account.withdraw(300);
+- account.getBalance();
+- account.getTransactions();
 
-const savings = new SavingsAccount("EIJI", 2000, 2);
-savings.addInterest();
-savings.getBalance();
+- const savings = new SavingsAccount("EIJI", 2000, 2);
+- savings.addInterest();
+- savings.getBalance();
 
 ### 🔮 Planned Improvements
 
